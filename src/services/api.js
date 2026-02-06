@@ -1,4 +1,4 @@
-const BASE_URL = "https://money-manager-backend-bs1c.onrender.com";
+const BASE_URL = "https://money-manager-backend-bs1c.onrender.com/api";
 
 /* ---------------- TRANSACTIONS ---------------- */
 
