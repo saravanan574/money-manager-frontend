@@ -1,0 +1,82 @@
+/* Backdrop */
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Modal box */
+  .modal-box {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  /* Close button */
+  .modal-box .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Inputs and select */
+  .modal-box input,
+  .modal-box select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  /* Save button */
+  .modal-box button.save-btn {
+    width: 100%;
+    padding: 10px 0;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .modal-box button.save-btn:hover {
+    background: #333;
+  }
+  
+  /* Tabs */
+  .modal-box .tabs {
+    display: flex;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .modal-box .tabs button {
+    flex: 1;
+    padding: 8px 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .modal-box .tabs button.active {
+    border-bottom: 2px solid #000;
+  }
+  
